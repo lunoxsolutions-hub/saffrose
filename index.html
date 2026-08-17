@@ -756,6 +756,138 @@
         </div>
     </div>
 
+   <section class="max-w-6xl mx-auto px-4 py-8 bg-[#0b1a13] text-white">
+  <!-- Breadcrumbs -->
+  <nav class="text-xs text-amber-200/60 uppercase tracking-widest mb-6">
+    <span>Home</span> / <span>Agarbatti Collection</span> / <span class="text-amber-400">Pineapple Athar Agarbatti</span>
+  </nav>
+
+  <!-- Product Main Section -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+    
+    <!-- Left: Image Gallery -->
+    <div class="space-y-4">
+      <div class="relative border border-amber-500/30 rounded-lg overflow-hidden bg-black/40">
+        <img id="mainImage" src="25684.png" alt="Pineapple Athar Agarbatti" class="w-full h-[500px] object-cover" />
+        <span class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-black/70 px-3 py-1 rounded-full text-xs text-amber-200">
+          1 / 3
+        </span>
+      </div>
+      <!-- Thumbnails -->
+      <div class="flex gap-3 justify-center">
+        <img src="25684.png" class="w-16 h-16 object-cover border-2 border-amber-400 rounded cursor-pointer" onclick="changeImage(this.src)" />
+        <img src="25684.png" class="w-16 h-16 object-cover border border-amber-500/30 rounded cursor-pointer opacity-70 hover:opacity-100" onclick="changeImage(this.src)" />
+        <img src="25684.png" class="w-16 h-16 object-cover border border-amber-500/30 rounded cursor-pointer opacity-70 hover:opacity-100" onclick="changeImage(this.src)" />
+      </div>
+    </div>
+
+    <!-- Right: Product Info & Purchase Actions -->
+    <div class="space-y-6">
+      <h1 class="text-3xl font-serif tracking-wider text-amber-100 uppercase">
+        Pineapple Athar Agarbatti
+      </h1>
+      <p class="text-amber-100/70 text-sm leading-relaxed">
+        Refreshing pineapple fragrance blended with premium quality athar for a long lasting and soothing experience.
+      </p>
+
+      <!-- Price & Badge -->
+      <div class="flex items-center gap-3">
+        <span class="text-3xl font-bold text-amber-400">₹170.00</span>
+        <span class="text-lg line-through text-amber-200/40">₹180.00</span>
+        <span class="bg-amber-500/20 border border-amber-400 text-amber-300 text-xs px-2 py-1 rounded font-semibold">
+          6% OFF
+        </span>
+      </div>
+
+      <!-- Quantity Selector -->
+      <div>
+        <label class="block text-xs uppercase tracking-widest text-amber-200/80 mb-2">Quantity</label>
+        <div class="inline-flex items-center border border-amber-500/30 rounded">
+          <button onclick="updateQty(-1)" class="px-3 py-1 text-amber-400 hover:bg-amber-500/10">-</button>
+          <span id="qty" class="px-4 text-sm font-semibold">1</span>
+          <button onclick="updateQty(1)" class="px-3 py-1 text-amber-400 hover:bg-amber-500/10">+</button>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="space-y-3 pt-2">
+        <button class="w-full py-3 bg-amber-600 hover:bg-amber-500 text-black font-bold uppercase tracking-wider rounded transition">
+          🛒 Add to Cart
+        </button>
+        <button class="w-full py-3 bg-emerald-950 hover:bg-emerald-900 border border-amber-500/40 text-amber-100 font-bold uppercase tracking-wider rounded transition">
+          Buy Now
+        </button>
+        <button class="w-full py-3 border border-amber-500/30 text-amber-200 hover:border-amber-400 text-sm uppercase tracking-wider rounded flex items-center justify-center gap-2">
+          ♡ Add to Wishlist
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feature Highlights Row -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-12 border-y border-amber-500/20 py-8 text-center">
+    <div class="space-y-1">
+      <div class="text-amber-400 text-2xl">🌿</div>
+      <h4 class="text-xs uppercase font-bold text-amber-200">Premium Quality</h4>
+      <p class="text-xs text-amber-100/60">Finest ingredients for a rich aroma</p>
+    </div>
+    <div class="space-y-1">
+      <div class="text-amber-400 text-2xl">⏰</div>
+      <h4 class="text-xs uppercase font-bold text-amber-200">Long Lasting Fragrance</h4>
+      <p class="text-xs text-amber-100/60">Enjoy a refreshing fragrance for hours</p>
+    </div>
+    <div class="space-y-1">
+      <div class="text-amber-400 text-2xl">🎁</div>
+      <h4 class="text-xs uppercase font-bold text-amber-200">Perfect for Every Space</h4>
+      <p class="text-xs text-amber-100/60">Ideal for home, office & spiritual use</p>
+    </div>
+    <div class="space-y-1">
+      <div class="text-amber-400 text-2xl">🛡️</div>
+      <h4 class="text-xs uppercase font-bold text-amber-200">Natural & Safe</h4>
+      <p class="text-xs text-amber-100/60">Made with natural extracts</p>
+    </div>
+  </div>
+
+  <!-- Detailed Product Descriptions & Notes -->
+  <div class="bg-black/30 border border-amber-500/20 rounded-xl p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div class="space-y-4">
+      <h3 class="text-xl font-serif text-amber-400 tracking-wider border-b border-amber-500/20 pb-2">
+        PRODUCT DETAILS
+      </h3>
+      <p class="text-sm text-amber-100/80 leading-relaxed">
+        Shaffrose Pineapple Athar Agarbatti is crafted with a unique blend of natural pineapple essence and premium quality ingredients. It fills your space with a refreshing and tropical aroma that uplifts mood, reduces stress, and creates a positive environment.
+      </p>
+
+      <!-- Fragrance Notes -->
+      <div class="pt-4 space-y-2">
+        <h4 class="text-xs uppercase tracking-widest text-amber-300 font-bold mb-2">NOTES</h4>
+        <p class="text-xs"><span class="text-amber-200/60 font-semibold">Top Notes:</span> Pineapple, Citrus</p>
+        <p class="text-xs"><span class="text-amber-200/60 font-semibold">Heart Notes:</span> Floral, Sweet Pineapple</p>
+        <p class="text-xs"><span class="text-amber-200/60 font-semibold">Base Notes:</span> Musk, Woody, Vanilla</p>
+      </div>
+    </div>
+
+    <!-- Product Detail Image -->
+    <div>
+      <img src="25684.png" alt="Pineapple Athar Agarbatti Detail" class="rounded-lg border border-amber-500/30 object-cover w-full h-80" />
+    </div>
+  </div>
+</section>
+
+<!-- Simple Interactive Script -->
+<script>
+  function changeImage(src) {
+    document.getElementById('mainImage').src = src;
+  }
+
+  function updateQty(amount) {
+    const qtyEl = document.getElementById('qty');
+    let currentQty = parseInt(qtyEl.innerText);
+    currentQty += amount;
+    if (currentQty < 1) currentQty = 1;
+    qtyEl.innerText = currentQty;
+  }
+</script>  
     <!-- JavaScript Logic -->
     <script>
         // Complete SHAFFROSE Master Product Data
